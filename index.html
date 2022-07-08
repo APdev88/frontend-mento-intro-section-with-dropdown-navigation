@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay"></div>
+      <header class="header">
+        <img src="images/icon-menu.svg" alt="" class="burger__menu" id="burger__img" />
+        <img src="images/logo.svg" alt="snap-logo" class="header__logo" />
+        <ul class="menu">
+          <div class="menu__dropdown__container">
+            <li class="dropdown nav__link__container" tabindex="0">
+              <a href="#" class="nav__link" active id="features-btn">
+                <span>Features</span>
+                <img src="images/icon-arrow-down.svg" alt="arrow-down" class="arrow__img" id="arrow-1" />
+              </a>
+              <ul class="features__menu" tabindex="0">
+                <li>
+                  <img src="images/icon-todo.svg" alt="todo-icon" />
+                  <a href="#">Todo List</a>
+                </li>
+
+                <li>
+                  <img src="images/icon-calendar.svg" alt="calendar-icon" />
+                  <a href="#">Calendar</a>
+                </li>
+
+                <li>
+                  <img src="images/icon-reminders.svg" alt="reminders-icon" />
+                  <a href="#">Reminders</a>
+                </li>
+
+                <li>
+                  <img src="images/icon-planning.svg" alt="planning-icon" />
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown nav__link__container">
+              <a href="#" class="nav__link" id="company-btn">
+                <span>Company</span>
+                <img src="images/icon-arrow-down.svg" alt="arrow-down" class="arrow__img" id="arrow-2" />
+              </a>
+              <ul class="company__menu">
+                <li>
+                  <a href="#">History</a>
+                </li>
+                <li>
+                  <a href="#">Our Team</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__link__container">
+              <a href="#" class="nav__link"><span>Careers</span></a>
+            </li>
+            <li class="nav__link__container">
+              <a href="#" class="nav__link"><span>About</span></a>
+            </li>
+          </div>
+
+          <div class="btn__container">
+            <button class="btn">Login</button>
+            <button class="btn btn--register">Register</button>
+          </div>
+        </ul>
+      </header>
+
+      <main class="hero">
+        <section class="hero__left">
+          <div class="hero__left__text">
+            <h1><span>Make</span> remote work</h1>
+            <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+            <div class="btn btn__hero">Learn more</div>
+          </div>
+
+          <div class="hero__left__icons">
+            <img src="images/client-databiz.svg" alt="databiz" />
+            <img src="images/client-audiophile.svg" alt="audiophile" />
+            <img src="images/client-meet.svg" alt="meet" />
+            <img src="images/client-maker.svg" alt="maker" />
+          </div>
+        </section>
+        <section class="hero__right"></section>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

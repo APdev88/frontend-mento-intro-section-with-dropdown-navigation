@@ -1,0 +1,46 @@
+.btn {
+  cursor: pointer;
+
+  &:active {
+    color: $black;
+  }
+
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: $gray;
+  font-size: 15px;
+
+  &--register {
+    border: 2px solid $gray;
+    padding: 11px 20px;
+    border-radius: 16px;
+    margin-left: 40px;
+  }
+
+  &__hero {
+    background-color: $black;
+    display: inline-block;
+    color: $white;
+    padding: 17px 26px;
+    border-radius: 15px;
+    margin-top: 2.5em;
+
+    &:active {
+      background-color: $white;
+      border: 1px solid $black;
+      color: $black;
+      font-weight: 700;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $gray;
+
+  &:active,
+  &:hover {
+    color: $black;
+  }
+}
